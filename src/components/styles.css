@@ -1,0 +1,52 @@
+
+#intro {
+  width: 100vw; 
+  height: 100vh;
+  overflow: hidden;
+}
+
+.intro-slider {
+  width: 100%;
+  height: 100%; 
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Customize slick slider pagination */
+.slick-dots li button:before {
+  font-size: 12px; 
+  background-color:#3182ce;
+  border-radius: 50%;
+}
+
+
+
+
+/* Customize slick slider navigation arrows */
+.slick-prev, .slick-next {
+  font-size: 20px; /* Adjust the font size of the arrows */
+  background-color: red;
+}
+.slick-arrow {
+  font-size: 50px;
+  background-color: red;
+}
+
+
