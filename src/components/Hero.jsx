@@ -13,7 +13,7 @@ function Hero() {
   
 
   return (
-    <section id="intro" className="mb-20">
+    <section id="intro" className="mb-10 relative">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -43,6 +43,7 @@ function Hero() {
                         <a
                           key={buttonIndex}
                           href={button.url}
+                          target='_blank'
                           className={`text-white px-8 py-3 rounded-full text-lg font-semibold ${button.bgColor || 'bg-blue-600'} ${button.hoverBgColor || 'hover:bg-blue-700'} transition duration-300 mr-4`}
                         >
                           {button.text}
@@ -56,6 +57,9 @@ function Hero() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className='absolute bottom-10 bg-gray-100/50 z-10 py-5 px-8'>
+           <img src="/img/carisca.png" width={300}/>
+        </div>
     </section>
   );
 }

@@ -25,7 +25,7 @@ export const slides = [
     title: 'Revolutionize Your Procurement',
     subtitle: 'Click. Upload. Complete.',
     buttons: [
-      { text: 'Get Started', url: '#' },
+      { text: 'Join Waitlist', url: 'https://docs.google.com/forms/d/e/1FAIpQLSdlptJeTFeyp_2jdW9Um0Sj_Q_q5UDQuT_7cU9Wfx_nPTbPFQ/viewform' },
       { text: 'Try It Now', url: 'https://app.eprocurepro.com', bgColor: 'bg-green-500', hoverBgColor: 'hover:bg-green-600' }
     ],
     bgOverlayColor: 'bg-black bg-opacity-50'
@@ -78,3 +78,15 @@ export const steps = [
     description: "Monitor the status of your orders in real-time and procurement issues through our dashboard."
   }
 ];
+
+export const partners = [
+  {
+    image: "/img/usaid.png",
+  },
+  {
+    image: "/img/asu.png",
+  },
+  {
+    image: "/img/knust.png",
+  }
+]

@@ -34,7 +34,7 @@ function HowItWorks() {
   };
 
   return (
-    <section id="how-it-works" className="py-20 bg-gray-100">
+    <section id="how-it-works" className="py-20 ">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-10 text-center text-blue-600">How It Works</h2>
         <Slider {...settings}>

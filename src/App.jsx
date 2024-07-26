@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {Navbar, Hero, About, HowItWorks, Features, Contact, Footer} from './components'
+import {Navbar, Hero, About, HowItWorks, Features, Contact, Footer, Waitlist, OurPartners} from './components'
 
 function App() {
 
@@ -10,7 +10,9 @@ function App() {
       <About />
       <Features />
       <HowItWorks />
+      <Waitlist />
       <Contact />
+      <OurPartners />
       <Footer />
    </BrowserRouter>
   )
